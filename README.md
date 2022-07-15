@@ -485,9 +485,9 @@ public static Stream<GitBlob> findGitBlobs(Path root, Consumer<GitBlob> gitBlobC
 }
 ```
 
-> **Exercise:** Write a method `public static int diceRollSum(int numDice)` which roles `numDice` dice once and computes the sum (between 2 and 12).
+> **Exercise:** Write a method `public static int diceRollSum(int numDice)` which rolls `numDice` dice once and computes the sum (between 2 and 12).
 
-> **Exercise:** Write a method `public static Map<Integer, Long> twinDiceRollSumDistribution(int numRolls)` which roles 2 dice `numRoles` times and returns the distribution, e.g. `{2=3, 3=11, 4=5, 5=12, 6=14, 7=14, 8=12, 9=14, 10=5, 11=6, 12=4}`
+> **Exercise:** Write a method `public static Map<Integer, Long> twinDiceRollSumDistribution(int numRolls)` which rolls 2 dice `numRolls` times and returns the distribution, e.g. `{2=3, 3=11, 4=5, 5=12, 6=14, 7=14, 8=12, 9=14, 10=5, 11=6, 12=4}`
 
 ## Case study: Nullable references
 
